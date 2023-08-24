@@ -1,5 +1,5 @@
-model_name: llama2_7b_chat_uncensored
-base_model: TheBloke/Llama-2-7B-fp16
+model_name: llama2_13b_chat_uncensored
+base_model: TheBloke/Llama-2-13B-fp16
 model_family: llama  # if unspecified will use AutoModelForCausalLM/AutoTokenizer
 model_context_window: 4096  # if unspecified will use tokenizer.model_max_length
 data:
