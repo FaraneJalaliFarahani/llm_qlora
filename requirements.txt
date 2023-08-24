@@ -1,10 +1,10 @@
 torch
-transformers
+transformers==4.30.2
+git+https://github.com/huggingface/peft.git@86290e9660d24ef0d0cedcf57710da249dd1f2f4
 langchain
 accelerate
 bitsandbytes
 datasets
-peft
 loralib
 sentencepiece
 scipy
